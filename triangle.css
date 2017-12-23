@@ -1,0 +1,101 @@
+html, body, * {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Layout */
+
+body {
+  text-align: center;
+}
+
+#app, #controls, #output-canvas {
+  display: inline-block;
+}
+
+#app {
+  padding: 40px;
+  margin: 40px;
+}
+
+#controls, #output-canvas {
+  vertical-align: middle;
+}
+
+#controls {
+  width: 300px;
+}
+
+#output-canvas {
+  width: 400px;
+}
+
+#about {
+  max-width: 400px;
+  margin: 10px auto;
+}
+
+
+/* Colours */
+
+body {
+  background: #b3e099;
+  color: #1c2130;
+}
+
+#app {
+  background: #ffffff;
+  border: 16px #1c2130 solid;
+}
+
+.flare-input-string, .flare-input-boolean {
+  border: none;
+  background: #b3e099;
+}
+
+label[for="flare-component-7"] {
+  border: 4px #1c2130 solid;
+  padding: 10px;
+}
+
+/* fonts */
+
+body, input {
+	font-size: 16px;
+  font-family: 'Overpass', sans-serif;
+  font-family: sans-serif;
+}
+
+#apptitle {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+
+/* Controls formatting */
+
+.flare-input-string, label {
+  margin: 10px;
+  text-align: center;
+}
+
+label {
+  min-width: 60px;
+  display: inline-block;
+}
+
+.flare-input {
+  display: inline-block;
+  width: 240px;
+}
+
+.flare-input-string {
+  width: 100px;
+  height: 32px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+
